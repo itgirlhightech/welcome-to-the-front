@@ -5,3 +5,4 @@ Uma emocionante experiência onde os jogadores testam sua rapidez e precisão ao
 Os jogadores devem ser rápidos e precisos, pois o tempo é limitado e a cada erro, uma vida é perdida. O desafio aumenta conforme o tempo passa, mantendo o jogador envolvido e motivado a melhorar suas habilidades.
 
 ![Demo do jogo](src/images/ex.png)
+
