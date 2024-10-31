@@ -26,9 +26,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const selectedSquare = state.view.squares[randomNumber];
         selectedSquare.classList.add("enemy");
 
-    
         // biome-ignore lint/complexity/noForEach: <explanation>
-                state.view.squares.forEach((square) => {
+        state.view.squares.forEach((square) => {
             square.onclick = () => {
                 if (square.classList.contains("enemy")) {
                     state.values.score++;
@@ -39,9 +38,11 @@ document.addEventListener("DOMContentLoaded", () => {
                     state.view.lives.textContent = `x${state.values.lives}`; 
                     if (state.values.lives <= 0) {
                         clearInterval(state.values.timerId);
-                        // biome-ignore lint/style/useTemplate: <explanation>
-                        alert("Game Over! Pontuação final: " + state.values.score);
-                        
+                        // Exibe mensagem de fim de jogo
+                        const endMessage = document.createElement("h2");
+                        endMessage.innerHTML = `Game Over! Pontuação final: <span class="score">${state.values.score}</span>`;
+                        endMessage.classList.add("end-message"); 
+                        document.body.appendChild(endMessage); 
                     }
                 }
             };
@@ -66,14 +67,17 @@ document.addEventListener("DOMContentLoaded", () => {
             state.values.timeLeft--;
             state.view.timeLeft.textContent = state.values.timeLeft;
 
-            if (state.values.lives <= 0) {
+            
+            if (state.values.timeLeft <= 0) {
+                clearInterval(countdown); 
                 clearInterval(state.values.timerId);
+
+                
                 const endMessage = document.createElement("h2");
                 endMessage.innerHTML = `Game Over! Pontuação final: <span class="score">${state.values.score}</span>`;
                 endMessage.classList.add("end-message"); 
                 document.body.appendChild(endMessage); 
             }
-            
         }, 1000);
     }
 
