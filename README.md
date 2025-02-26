@@ -12,7 +12,7 @@ Este é um jogo da memória onde o jogador combina pares de cartas iguais, usand
 ### Vídeo Demonstrativo
 [![Vídeo do Jogo da Memória]](MemoryGame/src/video/videojogodamem.mp4)
 
-### > Lista de Tarefas
+## > Lista de Tarefas
 Uma aplicação simples e interativa onde os usuários podem gerenciar suas tarefas diárias de forma eficiente. Com uma interface intuitiva, é possível adicionar, editar, remover e limpar tarefas, mantendo a organização com facilidade.  
 
 > **Adicionar Tarefa**  
