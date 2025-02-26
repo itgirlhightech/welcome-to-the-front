@@ -18,12 +18,17 @@ Uma aplicação simples e interativa onde os usuários podem gerenciar suas tare
 > **Adicionar Tarefa**  
 Os usuários podem inserir novas tarefas, que são exibidas automaticamente na lista.   
 > **Remover Tarefa**  
-Cada tarefa possui um botão de remoção, permitindo excluir itens individualmente.  
-![Demo](<src/Captura de tela 2025-02-25 215137 - Copia.png>) 
+Cada tarefa possui um botão de remoção, permitindo excluir itens individualmente.
+
+![Demo](<src/Captura de tela 2025-02-25 215137 - Copia.png>)
+
 > **Editar Tarefa**  
-É possível modificar uma tarefa já existente por meio de um prompt, facilitando ajustes rápidos.  
+É possível modificar uma tarefa já existente por meio de um prompt, facilitando ajustes rápidos.
+ 
 ![alt text](</src/Captura de tela 2025-02-25 215216.png>)
+
 > **Limpar Lista**  
-Um botão dedicado permite apagar todas as tarefas de uma vez, reiniciando a lista.  
+Um botão dedicado permite apagar todas as tarefas de uma vez, reiniciando a lista.
+
 ![alt text](</src/Captura de tela 2025-02-25 215257.png>)
 
