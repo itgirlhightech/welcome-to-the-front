@@ -11,3 +11,19 @@ Este é um jogo da memória onde o jogador combina pares de cartas iguais, usand
 
 ### Vídeo Demonstrativo
 [![Vídeo do Jogo da Memória]](MemoryGame/src/video/videojogodamem.mp4)
+
+### > Lista de Tarefas
+Uma aplicação simples e interativa onde os usuários podem gerenciar suas tarefas diárias de forma eficiente. Com uma interface intuitiva, é possível adicionar, editar, remover e limpar tarefas, mantendo a organização com facilidade.  
+
+> **Adicionar Tarefa**  
+Os usuários podem inserir novas tarefas, que são exibidas automaticamente na lista.   
+> **Remover Tarefa**  
+Cada tarefa possui um botão de remoção, permitindo excluir itens individualmente.  
+![Demo](<src/Captura de tela 2025-02-25 215137 - Copia.png>) 
+> **Editar Tarefa**  
+É possível modificar uma tarefa já existente por meio de um prompt, facilitando ajustes rápidos.  
+![alt text](</src/Captura de tela 2025-02-25 215216.png>)
+> **Limpar Lista**  
+Um botão dedicado permite apagar todas as tarefas de uma vez, reiniciando a lista.  
+![alt text](</src/Captura de tela 2025-02-25 215257.png>)
+
